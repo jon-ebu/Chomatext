@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'KH Teka';
+    src: url('kh-teka/KHTekaTRIAL-Regular.woff'); /* URL to the font file */
+}
+
 body, html {
     margin: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'KH Teka', Arial, sans-serif;
 }
 
 .full-screen-container {
