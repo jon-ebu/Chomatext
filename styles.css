@@ -36,6 +36,8 @@ body, html {
     white-space: normal; /* Enable text wrapping */
     overflow-wrap: break-word; /* Ensure words break if too long */
     word-wrap: break-word; /* Break long words */
+    word-break: break-all; /* Break words at any character */
+
     overflow: hidden; /* Prevent horizontal overflow */
 }
 
