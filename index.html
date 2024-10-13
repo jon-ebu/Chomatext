@@ -3,25 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chromatext</title>
-    <style>
-        /* Add your custom styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        /* Add more styles as needed */
-    </style>
+    <title>Full-Screen Editable Box</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <textarea rows="4" cols="50"></textarea>
+    <div class="full-screen-container">
+        <div id="editable-box" class="full-screen-text" contenteditable="true" placeholder="Type here..."></div>
     </div>
+    <button id="select-all-button">Select All</button>
+    <script src="script.js"></script>
 </body>
 </html>
